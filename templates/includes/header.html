@@ -38,13 +38,21 @@
               href="{% url 'pages:industries' %}"
               >
               Отрасли
-            </a> 
+            </a>
+          </li>
+          <li class="nav-item">
+            <a 
+              class="nav-link {% if view_name == 'pages:companies' %} active {% endif %}" 
+              href="{% url 'pages:companies' %}"
+              >
+              Компании
+            </a>              
           </li>
         </ul>
         {% endwith %}
       </div> 
       <a class="navbar-brand" href="{% url 'main:first' %}">
-        <img src="{% static 'img/logo.png' %}" height="50" class="d-inline-block align-top" alt="">            
+        <img src="{% static 'img/eye2.png' %}" height="50" class="d-inline-block align-top" alt="">            
       </a>         
     </div>
   </nav>

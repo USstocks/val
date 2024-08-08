@@ -6,5 +6,7 @@ app_name = 'pages'
 
 urlpatterns = [
     path('industries/', views.industries, name='industries'),
-    path('spx/', views.spx, name='spx')
+    path('spx/', views.spx, name='spx'),
+    path('companies/', views.companies, name='companies'),
+
 ]

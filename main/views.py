@@ -1,5 +1,6 @@
 from django.shortcuts import render
 
-def main(request):
+def first(request):
     template = 'main/first.html'
     return render(request, template)
+

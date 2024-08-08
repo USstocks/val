@@ -9,3 +9,7 @@ def industries(request):
 def spx(request):
     template = 'pages/spx.html'
     return render(request, template)
+
+def companies(request):
+    template = 'pages/companies.html'
+    return render(request, template)
